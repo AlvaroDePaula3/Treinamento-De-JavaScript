@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav> 
+        <h1> Bem-vindo ao lugar inexistente</h1>
+        <q> não clique em nada, ou terá um vírus mortal que vai se espalhar por todos os aparelhos da sua casa.</q>
+    </nav>
+    <div>
+        <p> Lembre-se do que estava escrito no começo da página</p>
+        <input id="cavalo"> 
+        <button type="button" onclick="myFunction()">tem certeza ?</button>
+        <q> Coloque seu nome completo</q>
+    </div>
+    <script>
+        function myFunction(){
+            var x = document.getElementById("cavalo").value; 
+            if(x.length<=15){
+                alert("Coloque números aleatórios ou pare de abreviar seu nome");
+            }else{
+                alert("Espero que tenha dinheiro para comprar novos eletrodomésticos")
+            }
+        }
+    </script>
+</body>
+</html>
